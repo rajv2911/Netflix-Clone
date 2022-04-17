@@ -18,3 +18,11 @@ for (let i = 0; i < accordian.length; i++) {
     }
   });
 }
+
+document.getElementById("getstarted1-btn").onclick = function(){
+    self.location = "cards.html"
+}
+
+document.getElementById("getstarted2-btn").onclick = function(){
+    self.location = "cards.html"
+}
